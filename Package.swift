@@ -59,8 +59,7 @@ let package = Package(
                 .target(name: "MiSnapSDK"),
                 .target(name: "MiSnapFacialCapture"),
                 .target(name: "AccountsSDK")
-            ],
-            path: "AccountsSDKTargets"
+            ]
         )
     ]
 )
