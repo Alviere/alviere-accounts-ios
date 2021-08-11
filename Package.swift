@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "AccountsSDK",
-            targets: ["AccountsLibrary"]
+            targets: ["AccountsSDKTargets"]
         )
     ],
     targets: [
@@ -50,16 +50,17 @@ let package = Package(
             checksum: "06944c1595cd6266348c8d6482a3b8a6a03c4a22a594494a68ae76492aca4026"
         ),
         .target(
-            name: "AccountsLibrary",
+            name: "AccountsSDKTargets",
             dependencies: [
-                .target(name: "AccountsSDK"),
-                .target(name: "MiSnapFacialCapture"),
-                .target(name: "MiSnapSDK"),
-                .target(name: "MiSnapSDKCamera"),
-                .target(name: "MiSnapSDKMibiData"),
-                .target(name: "MiSnapSDKScience"),
                 .target(name: "MobileFlow"),
-            ]
+                .target(name: "MiSnapSDKScience"),
+                .target(name: "MiSnapSDKMibiData"),
+                .target(name: "MiSnapSDKCamera"),
+                .target(name: "MiSnapSDK"),
+                .target(name: "MiSnapFacialCapture"),
+                .target(name: "AccountsSDK")
+            ],
+            path: "AccountsSDKTargets"
         )
     ]
 )
