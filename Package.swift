@@ -59,8 +59,7 @@ let package = Package(
                 .target(name: "MiSnapSDKMibiData"),
                 .target(name: "MiSnapSDKScience"),
                 .target(name: "MobileFlow"),
-            ],
-            path: "AccountsLibrary"
+            ]
         )
     ]
 )
