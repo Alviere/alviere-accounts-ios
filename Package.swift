@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "AccountsSDK",
-            targets: ["AccountsSDKTargets"]
+            targets: ["AccountsSDK", "MiSnapFacialCapture", "MiSnapSDK", "MiSnapSDKCamera", "MiSnapSDKMibiData", "MiSnapSDKScience", "MobileFlow"]
         )
     ],
     targets: [
@@ -48,18 +48,6 @@ let package = Package(
             name: "MobileFlow",
             url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.0/MobileFlow.xcframework.zip",
             checksum: "06944c1595cd6266348c8d6482a3b8a6a03c4a22a594494a68ae76492aca4026"
-        ),
-        .target(
-            name: "AccountsSDKTargets",
-            dependencies: [
-                .target(name: "MobileFlow"),
-                .target(name: "MiSnapSDKScience"),
-                .target(name: "MiSnapSDKMibiData"),
-                .target(name: "MiSnapSDKCamera"),
-                .target(name: "MiSnapSDK"),
-                .target(name: "MiSnapFacialCapture"),
-                .target(name: "AccountsSDK")
-            ]
         )
     ]
 )
