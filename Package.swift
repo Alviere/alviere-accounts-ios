@@ -16,38 +16,38 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AccountsSDK",
-            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.1/AccountsSDK.xcframework.zip",
-            checksum: "3fb56a2ae455999c257d8c5b446810c9c11f5c419c95898755aa27e8ad6dad1d"
+            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.2/AccountsSDK.xcframework.zip",
+            checksum: "a67db89be8f8d3c53f89f76321311b9536ef9a4dca8caecffa46e58661cb509e"
         ),
         .binaryTarget(
             name: "MiSnapFacialCapture",
-            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.1/MiSnapFacialCapture.xcframework.zip",
-            checksum: "dbb15f19426c25ef6786007356fe5b222313ac73a2610034bc78f219f54d9731"
+            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.2/MiSnapFacialCapture.xcframework.zip",
+            checksum: "79a86e6736980a57622f5e002e59c284aa8f1e74ef4440047e345c1e4f040e00"
         ),
         .binaryTarget(
             name: "MiSnapSDK",
-            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.1/MiSnapSDK.xcframework.zip",
-            checksum: "def162c6b283bdc2f78c848351aeaf102f1c79082a3fe9bdf491af04c011b3b0"
+            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.2/MiSnapSDK.xcframework.zip",
+            checksum: "38ea7f5c5830691c2d99c1bbffabeaaef8736cd0c981c983ba497be4ec424495"
         ),
         .binaryTarget(
             name: "MiSnapSDKCamera",
-            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.1/MiSnapSDKCamera.xcframework.zip",
-            checksum: "d9721c42441deaf8e6e99a542d5441883cfd1398e6682bda01585f92b9d61b42"
+            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.2/MiSnapSDKCamera.xcframework.zip",
+            checksum: "f5bac211f92bf01ef080e5b23d069efedeb9c42a7cbd0460b94715151d78064b"
         ),
         .binaryTarget(
             name: "MiSnapSDKMibiData",
-            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.1/MiSnapSDKMibiData.xcframework.zip",
-            checksum: "6fb3822dc62eec2a3e1ef3c97a7ad2020d78eacc1f4826fb55abbb4776c67b40"
+            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.2/MiSnapSDKMibiData.xcframework.zip",
+            checksum: "0b3de2d49b0bdace620dc259fcc2abea8b3cb977fe81d054734fd7749f01cbcc"
         ),
         .binaryTarget(
             name: "MiSnapSDKScience",
-            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.1/MiSnapSDKScience.xcframework.zip",
-            checksum: "99e4c629ba8c24d3d7a76e6a55556a2bc00243875861d348acff918da5cafa2f"
+            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.2/MiSnapSDKScience.xcframework.zip",
+            checksum: "9fc0b09fc84071cba6f4264ad3d93f427b0eace380e5a08cf372d64819215475"
         ),
         .binaryTarget(
             name: "MobileFlow",
-            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.1/MobileFlow.xcframework.zip",
-            checksum: "753634f6f49963016b29aee5070c74c5a8ac206a3b1a4fc0cbb7b6de6f54033a"
+            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.2/MobileFlow.xcframework.zip",
+            checksum: "c0b2c02d5afb717b3ac1d3c9c70bed5f11270c02fa719de47f67731ea3524800"
         )
     ]
 )
