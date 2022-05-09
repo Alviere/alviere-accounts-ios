@@ -4,7 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.9.10] 2022-04-xx
+## [0.9.11] 2022-05-09
+### Changed
+- Added metadata field on user account model.
+
+## [0.9.10] 2022-04-11
 ### Added
 - Capture PDF417 barcode document together with ID card back and driver's license back image on Mitek.
 ### Changed
