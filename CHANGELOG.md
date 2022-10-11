@@ -4,13 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.18] 2022-10-11
+
+### Changed
+- Updated AlCore integration.
+
+
 ## [0.9.17] 2022-08-11
 
 ### Added
 - Added external id field on update methods (account, address, dossier).
 
 ### Changed
-- Bug fixes and several performance improvements.
+- Fixed bugs and added several performance improvements.
 
 
 ## [0.9.16] - 2022-07-18
@@ -20,13 +26,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support for INE document type on dossier management.
 
 ### Changed
-- Bug fixes and several performance improvements.
+- Fixed bugs and added several performance improvements.
 
 
 ## [0.9.14] - 2022-06-08
 
 ### Changed
-- Bug fixes and several performance improvements.
+- Fixed bugs and added several performance improvements.
 
 
 ## [0.9.12] - 2022-05-13
@@ -48,7 +54,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Updated to the new API version.
-- Bug fixes and several performance improvements.
+- Fixed bugs and added several performance improvements.
 
 
 ## [0.9.9] - 2022-02-23
