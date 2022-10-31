@@ -18,12 +18,12 @@ let package = Package(
         .package(
             name: "AlCore",
             url: "https://github.com/Alviere/alviere-core-ios.git",
-            .exact("0.9.18")
+            .exact("0.9.19")
         ),
         .package(
             name: "AlCamera",
             url: "https://github.com/Alviere/alviere-camera-ios.git",
-            .exact("1.0.5")
+            .exact("1.0.6")
         )
     ],
     targets: [
@@ -38,8 +38,8 @@ let package = Package(
          ),
         .binaryTarget(
             name: "AccountsSDK",
-            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.18/AccountsSDK.xcframework.zip",
-            checksum: "c0c840cd6e247e95eafc2284eb69c78af4cd58e32c473612f0496c01ec38fe59"
+            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.19/AccountsSDK.xcframework.zip",
+            checksum: "2540ace52324356e838bf7fafcef4471cd5c0deafc27b4cf61dfdbb3a1ad6ad6"
         )
     ]
 )
