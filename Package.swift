@@ -5,7 +5,7 @@ let package = Package(
     name: "AccountsSDK",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -18,12 +18,12 @@ let package = Package(
         .package(
             name: "AlCore",
             url: "https://github.com/Alviere/alviere-core-ios.git",
-            .exact("0.9.24")
+            .exact("0.9.25")
         ),
         .package(
             name: "AlCamera",
             url: "https://github.com/Alviere/alviere-camera-ios.git",
-            .exact("1.0.6")
+            .exact("1.1.0")
         )
     ],
     targets: [
@@ -38,8 +38,8 @@ let package = Package(
          ),
         .binaryTarget(
             name: "AccountsSDK",
-            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.24/AccountsSDK.xcframework.zip",
-            checksum: "586a7a2e2240c54f66a5177b2a6b956804a6caa2403a38c4d85002ca2fbb4da1"
+            url: "https://github.com/Alviere/alviere-accounts-ios/releases/download/0.9.25/AccountsSDK.xcframework.zip",
+            checksum: "0dc88919f74d4e93363eee60338b58692792799430d5159ce972654ed3700d2f"
         )
     ]
 )
